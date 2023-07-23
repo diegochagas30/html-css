@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo De Caixas em HTML</title> 
+    <style>      /*PRATICA NA QUAL USAMOS O DevTools pra "brincar com tamanhos e propriedades das "caixas" */
+        h1{
+            /*display: inline;/*  /*isso transforma a caixa h1 em uma caixa inline level*/
+            
+            width: 300px;
+            height: 300px;
+            background-color: lavender;
+
+            /*border-width: 10px;
+            border-color: red;
+            border-style: solid;*/
+
+            border: 10px solid red;   /*shorthand*/
+
+            /*padding-left: 4px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-right: 4px;*/
+            padding: 4px;           /*shorthand*/  /*como todos os lados sao iguais coloca so um tamanho no shothand*/
+            
+            /*margin:auto;  isso era pra centralizar*/
+            
+            margin: 10px auto 10px auto;   /*configurados os lados da margem, começando de cima, no sentido horario. o "auto" é pra centralizar horizontalmente*/
+ 
+            /*outline-width: 10px;
+            outline-style: dashed;
+            outline-color: lawngreen;*/
+            outline: 4px dashed lawngreen;         /*shorthand*/
+
+            /*margin-bottom: 10px ; meio que por padrao ao h1 ta com margem de 16px embaixo, da pra perceber mexemndo no devtools*/ 
+        }
+
+        a{
+
+            /*display: block;/*  /*isso transforma a caixa link em uma box level*/
+
+            /*border-width: 4px;
+            border-color: red;
+            border-style: solid;*/
+            border: 4px red solid;         /*shorthand*/
+
+            /*padding-left: 2px;
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-bottom: 2px;*/
+            padding: 2px;       /*shorthand*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Modelo Caixas HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur <a href="#"> CLICA AQUI PARA METER O PE DESSA PAGINA DE MALUCO </a>adipisicing elit. Possimus accusantium hic rerum libero similique modi ipsa esse et, voluptate, impedit amet magni facilis laborum quaerat eius est ullam aperiam cum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt veniam architecto fugiat, ipsa velit vel eos, expedita illum consequuntur temporibus blanditiis explicabo. Repellat dicta itaque, doloremque provident dolores iure qui!</p>
+</body>
+</html>

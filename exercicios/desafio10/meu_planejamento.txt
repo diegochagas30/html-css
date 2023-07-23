@@ -1,0 +1,17 @@
+PLANJAMENTO:
+
+Cabeçalho:
+.Degrade de cima pra baixo
+.Titulo e frase centralizadas, cor da fonte branca.
+.Um "nav" que sera o menu, com 4 links. aça o espassamento entre os link com margem. Alem disso
+ quando passa o mouse nos links do menu, fica sublinhado e muda a cor da caixa do link, faça isso 
+com o "hover"
+
+Conteúdo:
+.Links ao longo dos textos tem letras verdes e um "emoji" na frente
+.Algunas subtitulos tem tipo um degrade da esqueda pra direita
+
+.Video: acredito que possa colocar borda na caixa do video, ai fazemos esse verde ai
+.Caixa  com bordas arredondadas tem lista dentro com marcador personalizado
+
+RODAPE:

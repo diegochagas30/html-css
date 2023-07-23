@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group tags</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(95, 95, 95);
+        }
+
+        header{
+            background-color: white;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        
+        nav{
+            background-color: rgb(170, 168, 168);
+           /* box-shadow: 1px 1px 1px black;    sombra feita a mao */    
+            box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.432); /*feito no devtools*/
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;    /*pra nao ter sublinhado, só quando passar o mouse, configuração feita no seletor de baixo ai*/
+            margin-right: 10px;
+        }
+
+        nav > a:hover{
+            text-decoration-line: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 4px 4px;  /*8px em cima e embaixo, 4 dos lados*/
+            margin: 8px 0px 8px 0px;
+        }
+        
+        article{
+            background-color: lightgrey;
+        }
+        aside > p{
+            background-color: rgb(142, 141, 141);
+        }
+
+        footer{
+            background-color: black;
+        }
+
+        footer > p{
+            color: white;
+            text-align: center;
+            padding: 4px 0px;
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>                  <!--cabeçalho-->
+        <h1>Jornal Super</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav> 
+    </header>
+    
+    <main>                  <!--conteudo--> 
+        <section id="esportes">
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officia voluptas repellendus delectus laudantium placeat, ad vel adipisci illo dignissimos laboriosam possimus, provident nobis molestiae, iste minus ipsa in! Minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta commodi ducimus nostrum esse quae hic voluptatem beatae! Modi facilis explicabo doloremque cum ex nostrum facere veniam, deleniti eligendi dolorem.</p>
+            </article>
+        </section>
+        <section id="politica">
+
+        </section>
+        <aside>
+            <p>Escrito por Katléa Joselita</p>
+        </aside>
+    </main>
+
+    <footer>            <!--rodapé-->
+        <p>site desenvolvido por um futuro profissional da área de TI</p>
+    </footer>
+
+</body>
+</html>

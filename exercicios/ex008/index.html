@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icons8-Windows-8-Cinema-Batman-Old.512.png" type="image/x-icon">
+    <style>
+        mark{
+            background-color: rgb(25, 164, 169);
+        }
+    </style>
+    <title>Formatações HTML</title>
+</head>
+<body>
+    <h1>Negrito e italico com e sem semantica</h1>
+    <h2>Negrito</h2>
+    <p>Aqui temos um termo em <b>negrito</b>, usando tag nao semântica</p>
+    <p>Aqui temos um termo em <strong>negrito</strong>, usando tag semântica</p>
+    
+    <h2>itálico</h2>
+    <p>Aqui temos um termo em <i>itálico</i> nao semântico</p>
+    <p>Aqui temos um termo em <em>itálico</em> semântico</p>
+    
+    <h2>Tag mark, marca texto</h2>
+    <p>Aqui temos exemplo de uso da tag MARK, nosso <mark>marca texto</mark></p>
+    <p>Outro exemplo,<mark>somente para fazer o teste da css mudando cor</mark>, configurada no head</p>
+    
+    <h2>BIG e SMALL</h2>
+    <p> A tag <big>big esta obsoleta</big>, porem a tag <small>small esta em uso ainda</small></p>
+    
+    <h2>Texto deletado e inserido</h2>
+    <p> Se eu quiser riscar um texto, uso a tag DEL, <del>pra riscar assim</del></p>
+    <p><ins>Para sublinhar um texto</ins>, uso a tag INS</p>
+    <p>Se eu quiser chamar atenção, <ins><mark style="background-color: rgb(222, 151, 64);">faço isso aqui, mark dentro da tag ins, usando css para alterar a cor da mark, ja definida na head </mark></ins></p>
+   
+    <h2>Texto SOBREescrito e SUBescrito</h2>
+    <p>SOBREescrito é para fazemos tipo um expoente, usando a tag sup, assim: <br>
+      x<sup>4</sup> + 32; <br>
+      Pato<sup>2</sup> (pato ao quadrado kakakaka);
+    </p>
+    <p>Para textos subrescitos, tipo indices usamos a tag sub, assim: <br>
+       x<sub>n-1</sub> + 1; <br>
+       Pato<sub>rouco</sub> ;
+    </p>
+   
+    <h2>Testando na pratica a tag CODE</h2>
+    <p> Colocando codigo C++ dentro da tag CODE: <br>
+       <code>
+    if(x==2){
+    y++;
+    }else{
+    y--;
+    }
+       </code>
+    </p>
+    <p>Agora, testando a tag <strong>PRE</strong> , pelo visto melhor, com codigo tambem: <br>
+     <pre>
+    if(x>400){
+            y++;
+        }else{
+            y--;
+        }</pre>
+    </p>
+    <p>Agora testando com <ins>code</ins> e <ins>pre</ins> <br>
+        <code>
+            <pre>
+    if(x==0){
+        y++;
+    }else{
+        y--;
+    }
+            </pre>
+        </code>
+    </p> <!--esses espaços ai do codigo C acima, em distancia do canto esquerdo da tela, são levados em conta quando usamos a tag pre-->
+
+</body>
+</html>

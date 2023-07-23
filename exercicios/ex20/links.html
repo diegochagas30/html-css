@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+       a{
+        text-decoration: none;
+       }
+
+       a:visited{
+        color: rgb(71, 255, 92);
+       }
+       
+       a:hover{
+        text-decoration: underline;
+       }
+
+       .especial::after{
+        content: "   <--(link) ";  /* content= "conteudo" */
+        color: rgb(131, 10, 10);
+       }
+       
+       .especial::before{
+        content: "(link)--> ";  /* content= "conteudo" */
+        color: rgb(131, 10, 10);
+        text-decoration: none;
+       }
+
+    </style>
+</head>
+<body>
+    <ul>
+        
+        <il><a href="https://www.youtube.com/watch?v=10E6DjN4vIE&ab_channel=DanceClub" target="_blank" rel="external" >Eletrohits - I don't know why </a></il>
+        <br>
+        <il><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="external" class="especial
+        ">Curso em video</a> </il>
+    </ul>
+
+</body>
+</html>
